@@ -1,0 +1,4 @@
+ru/netology/transferer/TestData.class
+ru/netology/transferer/service/TransferMoneyServiceTest.class
+ru/netology/transferer/repository/TransferMoneyRepositoryImplMock.class
+ru/netology/transferer/repository/TransferMoneyRepositoryImplTest.class

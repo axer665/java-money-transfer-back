@@ -1,0 +1,17 @@
+2023-12-07 12:04:21 / INFO / Success transfer. Transfer operation id 1. Card from 1111111111111111. Card to 2222222222222222. Amount 10000. Commission 100
+2023-12-07 12:04:54 / ERROR / Card to not found 
+Error transfer. Transfer operation id 2. Card from 1111111111111111. Card to 2222222222222223. Amount 10000. Commission 100
+
+2023-12-07 12:05:07 / ERROR / Card to not found 
+Error transfer. Transfer operation id 3. Card from 1111111111111111. Card to 2222222222222223. Amount 10000. Commission 100
+
+2023-12-07 12:05:13 / INFO / Success transfer. Transfer operation id 4. Card from 1111111111111111. Card to 2222222222222222. Amount 10000. Commission 100
+2023-12-07 12:20:16 / INFO / Success transfer. 
+ Transfer operation id 1. Card from 1111111111111111. Card to 2222222222222222. Amount 10000. Commission 100
+
+2023-12-07 12:50:45 / INFO / Success transfer. 
+ Transfer operation id 1. Card from 1111111111111111. Card to 2222222222222222. Amount 10000. Commission 100
+
+2023-12-07 13:25:47 / INFO / Success transfer. 
+ Transfer operation id 1. Card from 1111111111111111. Card to 2222222222222222. Amount 10000. Commission 100
+
