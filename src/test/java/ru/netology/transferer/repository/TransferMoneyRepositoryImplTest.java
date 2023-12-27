@@ -7,7 +7,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.junit.runners.MethodSorters;
 import ru.netology.transferer.domain.Card;
-import ru.netology.transferer.domain.request.TransferRequest;
+import ru.netology.transferer.dto.request.TransferRequest;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

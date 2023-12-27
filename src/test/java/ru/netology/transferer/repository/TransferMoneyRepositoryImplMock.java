@@ -1,7 +1,7 @@
 package ru.netology.transferer.repository;
 
 import ru.netology.transferer.domain.Card;
-import ru.netology.transferer.domain.request.TransferRequest;
+import ru.netology.transferer.dto.request.TransferRequest;
 
 import static ru.netology.transferer.TestData.*;
 

@@ -3,7 +3,7 @@ package ru.netology.transferer.repository;
 import org.springframework.stereotype.Repository;
 import ru.netology.transferer.domain.Amount;
 import ru.netology.transferer.domain.Card;
-import ru.netology.transferer.domain.request.TransferRequest;
+import ru.netology.transferer.dto.request.TransferRequest;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -13,7 +13,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class TransferMoneyRepositoryImpl implements TransferMoneyRepository {
 
     private final Map<String, Card> cards = new ConcurrentHashMap<>();
-
     private final Map<String, TransferRequest> transfers = new ConcurrentHashMap<>();
     private final Map<String, String> codes = new ConcurrentHashMap<>();
     private final AtomicInteger operationId = new AtomicInteger();
@@ -39,8 +38,8 @@ public class TransferMoneyRepositoryImpl implements TransferMoneyRepository {
     }
 
     @Override
-    public void putTransfers(String id, TransferRequest transferRQ) {
-        transfers.put(id, transferRQ);
+    public void putTransfers(String id, TransferRequest transferRequest) {
+        transfers.put(id, transferRequest);
     }
 
     @Override

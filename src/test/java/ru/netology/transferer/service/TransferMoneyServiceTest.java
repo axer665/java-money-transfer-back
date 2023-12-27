@@ -2,7 +2,7 @@ package ru.netology.transferer.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import ru.netology.transferer.domain.response.TransferAndConfirmResponse;
+import ru.netology.transferer.dto.response.TransferAndConfirmResponse;
 import ru.netology.transferer.repository.TransferMoneyRepositoryImplMock;
 
 import static org.junit.jupiter.api.Assertions.*;

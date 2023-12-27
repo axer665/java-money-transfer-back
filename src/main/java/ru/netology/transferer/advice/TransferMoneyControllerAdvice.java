@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import ru.netology.transferer.exception.ConfirmException;
 import ru.netology.transferer.exception.InputDataException;
 import ru.netology.transferer.exception.TransferException;
-import ru.netology.transferer.domain.response.TransferAndErrorResponse;
+import ru.netology.transferer.dto.response.TransferAndErrorResponse;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

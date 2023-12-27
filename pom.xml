@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>ru.netology</groupId>
 	<artifactId>transferer</artifactId>
-	<version>0.0.1-SNAPSHOT-APP</version>
+	<version>0.0.2-SNAPSHOT-APP</version>
 	<name>transferer</name>
 	<description>transferer</description>
 	<properties>
@@ -38,7 +38,8 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>1.18.30</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

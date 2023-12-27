@@ -2,8 +2,8 @@ package ru.netology.transferer;
 
 import ru.netology.transferer.domain.Amount;
 import ru.netology.transferer.domain.Card;
-import ru.netology.transferer.domain.request.ConfirmRequest;
-import ru.netology.transferer.domain.request.TransferRequest;
+import ru.netology.transferer.dto.request.ConfirmRequest;
+import ru.netology.transferer.dto.request.TransferRequest;
 
 public class TestData {
 
